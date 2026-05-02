@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/nav_history" android:title="History"/>
+    <item android:id="@+id/nav_calculator" android:title="Calculator"/>
+    <item android:id="@+id/nav_scientific" android:title="Scientific"/>
+    <item android:id="@+id/nav_fractions" android:title="Fractions"/>
+    <item android:id="@+id/nav_currency" android:title="Currency"/>
+    <item android:id="@+id/nav_tip" android:title="Tip Calculator"/>
+    <item android:id="@+id/nav_timezone" android:title="Time Zones"/>
+
+    <group android:id="@+id/group_converters">
+        <item android:id="@+id/nav_converters_header" android:title="Converters" android:enabled="false"/>
+        <item android:id="@+id/nav_length" android:title="Length"/>
+        <item android:id="@+id/nav_weight" android:title="Weight"/>
+        <item android:id="@+id/nav_temperature" android:title="Temperature"/>
+        <item android:id="@+id/nav_speed" android:title="Speed"/>
+        <item android:id="@+id/nav_area" android:title="Area"/>
+        <item android:id="@+id/nav_volume" android:title="Volume"/>
+        <item android:id="@+id/nav_pressure" android:title="Pressure"/>
+        <item android:id="@+id/nav_energy" android:title="Energy"/>
+        <item android:id="@+id/nav_data" android:title="Data Storage"/>
+    </group>
+</menu>
